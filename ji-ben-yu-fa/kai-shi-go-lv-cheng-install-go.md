@@ -62,5 +62,18 @@ _<mark style="color:purple;">有的時候無法自動import可能只是func.name
 
 #### Bin資料夾被安裝的工具
 
-![](../.gitbook/assets/bin\_tools.PNG)
-
+```
+D:\go\bin>dir /B
+dlv-dap.exe
+dlv.exe
+go-outline.exe
+goimports.exe
+gomodifytags.exe
+gopkgs.exe
+goplay.exe
+gopls.exe
+gotests.exe
+impl.exe
+staticcheck.exe
+swag.exe
+```

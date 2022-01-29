@@ -9,7 +9,9 @@
 * [GO types](ji-ben-yu-fa/go-types/README.md)
   * [型態轉換](ji-ben-yu-fa/go-types/xing-tai-zhuan-huan.md)
 * [array/slice/map](ji-ben-yu-fa/array-slice-map.md)
-* [interface](ji-ben-yu-fa/interface.md)
+* [interface](ji-ben-yu-fa/interface/README.md)
+  * [空的接口，interface{}](ji-ben-yu-fa/interface/kong-de-jie-kou-interface.md)
+  * [\[Demo\]interfce定義行為](ji-ben-yu-fa/interface/demointerfce-ding-yi-hang-wei.md)
 
 ## 進階
 
