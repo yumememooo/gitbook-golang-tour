@@ -1,6 +1,10 @@
-# 好文好庫
+# 收藏庫
 
-收藏大全
+### 基本
+
+* [https://pkg.go.dev/fmt](https://pkg.go.dev/fmt)
+
+### 收藏大全
 
 {% embed url="https://github.com/avelino/awesome-go" %}
 awesome-go
