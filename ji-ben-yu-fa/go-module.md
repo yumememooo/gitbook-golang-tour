@@ -6,7 +6,7 @@
 
 ```
 go mod init 
-go mod tidy
+go mod tidy 添加需要用到但go.mod中查不到的模块,删除未使用的模块
 go mod download
 go mod graph
 go mod why
@@ -58,3 +58,10 @@ In Go 1.15 and lower, the `-mod=mod` flag was enabled by default, so updates wer
 * go mod graph 可视化——gmchart\
   [https://segmentfault.com/a/1190000038897207](https://segmentfault.com/a/1190000038897207)
 
+\-----------------------
+
+\*如果你看到以下錯誤訊息，表示沒有先下go mod init
+
+```
+//go.mod file not found in current directory or any parent directory; see 'go help modules'
+```

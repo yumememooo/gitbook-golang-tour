@@ -15,4 +15,5 @@
 ## 收藏區
 
 * [好文好庫](shou-cang-qu/hao-wen-hao-ku.md)
-* [IDE相關](shou-cang-qu/ide-xiang-guan.md)
+* [IDE相關](shou-cang-qu/ide-xiang-guan/README.md)
+  * [\[插件\]code runner快速執行程式](shou-cang-qu/ide-xiang-guan/cha-jian-code-runner-kuai-su-zhi-hang-cheng-shi.md)
