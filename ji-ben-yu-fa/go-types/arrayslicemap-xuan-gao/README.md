@@ -5,6 +5,7 @@
 * 陣列在初始化時必須指定大小
 * 陣列為**按值傳遞**的，函式內對陣列的值的改變不影響初始陣列
 * 陣列作為函式引數時，必須指定引數陣列的大小，且傳入的陣列大小必須與指定的大小一致
+* 不可以使用append
 
 ```
 var arr1 [5]int 
@@ -119,4 +120,14 @@ func main() {
 
 ```
 
-from [https://go.dev/tour/moretypes/20](https://go.dev/tour/moretypes/20)
+
+
+#### 參考網址
+
+Map from [https://go.dev/tour/moretypes/20](https://go.dev/tour/moretypes/20)
+
+使用陣列 (Array) 和切片 (Slice)\
+[https://opensourcedoc.com/golang-programming/array-slice/](https://opensourcedoc.com/golang-programming/array-slice/)
+
+Go語言Array和Slice的區別\
+[https://www.gushiciku.cn/pl/gWSH/zh-tw](https://www.gushiciku.cn/pl/gWSH/zh-tw)
