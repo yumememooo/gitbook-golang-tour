@@ -7,15 +7,20 @@
 * [\[開始Go旅程\] Install Go](ji-ben-yu-fa/kai-shi-go-lv-cheng-install-go.md)
 * [go Module](ji-ben-yu-fa/go-module.md)
 * [GO types](ji-ben-yu-fa/go-types/README.md)
-  * [型態轉換](ji-ben-yu-fa/go-types/xing-tai-zhuan-huan.md)
-* [array/slice/map](ji-ben-yu-fa/array-slice-map.md)
+  * [型態 Types](ji-ben-yu-fa/go-types/xing-tai-types.md)
+  * [型態轉換 Type convert](ji-ben-yu-fa/go-types/xing-tai-zhuan-huan-type-convert.md)
+  * [array/slice/map 宣告](ji-ben-yu-fa/go-types/arrayslicemap-xuan-gao/README.md)
+    * [array range](ji-ben-yu-fa/go-types/arrayslicemap-xuan-gao/array-range.md)
+    * [map 操作](ji-ben-yu-fa/go-types/arrayslicemap-xuan-gao/map-cao-zuo.md)
+  * [Reflection](ji-ben-yu-fa/go-types/reflection.md)
+  * [unsafe.Sizeof](ji-ben-yu-fa/go-types/unsafe.sizeof.md)
 * [interface](ji-ben-yu-fa/interface/README.md)
   * [空的接口，interface{}](ji-ben-yu-fa/interface/kong-de-jie-kou-interface.md)
   * [\[Demo\]interfce定義行為](ji-ben-yu-fa/interface/demointerfce-ding-yi-hang-wei.md)
 
 ## 進階
 
-* [Page 2](jin-jie/page-2.md)
+* [TBD](jin-jie/tbd.md)
 
 ## 收藏區
 

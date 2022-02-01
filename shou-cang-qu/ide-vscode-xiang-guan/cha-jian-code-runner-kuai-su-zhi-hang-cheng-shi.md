@@ -14,10 +14,6 @@ description: Run code snippet or code file for multiple languages
 
 #### 參考文章:
 
-* 插件介紹:
+* 插件介紹[ code-runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner)
+* 安裝介紹 [vsode-install-code-ranner](https://blog.csdn.net/skyway16s/article/details/83272101)
 
-[https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner)
-
-* 安裝介紹
-
-https://blog.csdn.net/skyway16s/article/details/83272101

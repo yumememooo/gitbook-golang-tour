@@ -1,20 +1,16 @@
 # 收藏庫
 
-### 基本
+### 基本常用基本庫
 
 * [https://pkg.go.dev/fmt](https://pkg.go.dev/fmt)
 
-### 收藏大全
+#### 收藏大全
 
-{% embed url="https://github.com/avelino/awesome-go" %}
-awesome-go
-{% endembed %}
+* [awesome-go](https://github.com/avelino/awesome-go)&#x20;
 
-#### web-socket設計
+#### 其他
 
-Golang-Redis-WebSocket-ChatServer
-
-支援ＷＳ外，還有橫向擴展．
-
-{% embed url="https://github.com/mhewedy-playground/Golang-Redis-WebSocket-ChatServer" %}
+* WebSocket
+  * Golang-Redis-WebSocket-ChatServer]\([https://github.com/mhewedy-playground/Golang-Redis-WebSocket-ChatServer](https://github.com/mhewedy-playground/Golang-Redis-WebSocket-ChatServer))
+  * 支援ＷＳ外，還有橫向擴展．
 
