@@ -1,5 +1,5 @@
 ---
-description: 嗨，我是Yuri，後端工程師，學習golang兩年，歡迎來到我學習golang旅程上的備忘區。
+description: 嗨，我是Yuri，後端工程師，學習golang兩年，歡迎來到我學習golang旅程上的備忘路。
 ---
 
 # 😀 Golang Tour
