@@ -28,8 +28,6 @@ description: 基本型態介紹
 | complex64                                                              |                                                                              |                                                                                                        |
 | complex128                                                             |                                                                              |                                                                                                        |
 
-*
-
 
 
 
