@@ -1,6 +1,6 @@
 # Table of contents
 
-* [😀 Golang Tour](README.md)
+* [😀 Golang MY Playground](README.md)
 
 ## 基本語法
 
@@ -31,3 +31,7 @@
   * [\[Code Snippet\] 程式碼快捷鍵](shou-cang-qu/ide-vscode-xiang-guan/code-snippet-cheng-shi-ma-kuai-jie-jian.md)
   * [\[插件\]開發推薦使用](shou-cang-qu/ide-vscode-xiang-guan/cha-jian-kai-fa-tui-jian-shi-yong.md)
   * [\[debug setting\]](shou-cang-qu/ide-vscode-xiang-guan/debug-setting.md)
+
+***
+
+* [後記](hou-ji.md)
