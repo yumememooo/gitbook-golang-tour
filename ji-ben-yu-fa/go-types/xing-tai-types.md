@@ -4,9 +4,28 @@ description: 基本型態介紹
 
 # 型態 Types
 
-###
-
 ### Basic types
+
+| type                                                         | Size  |             |
+| ------------------------------------------------------------ | ----- | ----------- |
+| bool                                                         |       |             |
+| string                                                       |       |             |
+| //Signed Integers                                            |       |             |
+| int                                                          |       |             |
+| int8                                                         | 8bit  | -128 to 127 |
+| int16                                                        | 16bit |             |
+| <p>int32<br>rune // alias for int32 (Unicode code point)</p> | 32bit |             |
+| int64                                                        | 64bit |             |
+| //Unsigned Integers                                          |       |             |
+| uint                                                         |       |             |
+| <p>uint8<br>byte // alias for uint8</p>                      | 8bit  |             |
+| uint16                                                       | 16bit |             |
+| uint32                                                       | 32bit |             |
+| uint64                                                       | 64bit |             |
+| float32                                                      |       |             |
+| float64                                                      |       |             |
+| complex64                                                    |       |             |
+| complex128                                                   |       |             |
 
 ```
 bool
