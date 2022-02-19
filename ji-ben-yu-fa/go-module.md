@@ -11,7 +11,12 @@ go mod download
 go mod graph
 go mod why
 go env -w GOFLAGS=-mod=mod
+go help get usage: go get [-d] [-t] [-u] [-v] [-insecure] [build flags] [packages]
 ```
+
+\
+See [https://golang.org/ref/mod#go-get](https://golang.org/ref/mod#go-get) for details.\
+See 'go help install' or [https://golang.org/ref/mod#go-install](https://golang.org/ref/mod#go-install) for details.
 
 ### 不同版本的功能
 

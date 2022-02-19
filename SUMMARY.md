@@ -22,6 +22,7 @@
 ## 進階 / 應用
 
 * [Gin Web Framework](jin-jie-ying-yong/gin-web-framework.md)
+* [md5加密庫(crypto/md5)](jin-jie-ying-yong/md5-jia-mi-ku-cryptomd5.md)
 
 ## 收藏區
 
