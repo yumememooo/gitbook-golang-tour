@@ -5,7 +5,7 @@
 ## 基本語法
 
 * [\[開始Go旅程\] Install Go](ji-ben-yu-fa/kai-shi-go-lv-cheng-install-go.md)
-* [go Module](ji-ben-yu-fa/go-module.md)
+* [Go Module](ji-ben-yu-fa/go-module.md)
 * [GO types](ji-ben-yu-fa/go-types/README.md)
   * [型態 Types](ji-ben-yu-fa/go-types/xing-tai-types.md)
   * [型態轉換 Type convert](ji-ben-yu-fa/go-types/xing-tai-zhuan-huan-type-convert.md)
