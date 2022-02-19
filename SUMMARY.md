@@ -30,5 +30,5 @@
 * [\[IDE\] VSCODE相關](shou-cang-qu/ide-vscode-xiang-guan/README.md)
   * [\[插件\]code runner快速執行程式](shou-cang-qu/ide-vscode-xiang-guan/cha-jian-code-runner-kuai-su-zhi-hang-cheng-shi.md)
   * [\[Code Snippet\] 程式碼快捷鍵](shou-cang-qu/ide-vscode-xiang-guan/code-snippet-cheng-shi-ma-kuai-jie-jian.md)
-  * [\[插件\]Git Graph](shou-cang-qu/ide-vscode-xiang-guan/cha-jian-git-graph.md)
+  * [\[插件\]開發推薦使用](shou-cang-qu/ide-vscode-xiang-guan/cha-jian-kai-fa-tui-jian-shi-yong.md)
   * [\[debug setting\]](shou-cang-qu/ide-vscode-xiang-guan/debug-setting.md)
