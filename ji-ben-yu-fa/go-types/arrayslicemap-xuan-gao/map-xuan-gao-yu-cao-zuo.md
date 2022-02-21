@@ -1,4 +1,83 @@
-# map 操作
+# map 宣告與操作
+
+### 映射 `MAP`
+
+`宣告`
+
+* 使用var m map\[string]int 可以宣告一個nil的map，<mark style="color:red;">需注意未初始化就塞值會引發panic</mark>
+* **使用內建的 `make()` 函數初始化 map，**該函數將返回已初始化及可以使用的 map。
+  * 或是var map\[string]int{}可以透過將大括號留空，建立一個空 map
+* 傳遞時為**按引用傳遞**的，對元素的修改將導致函式外的值也發生改變
+
+```
+
+import "fmt"
+
+func main() {
+	var m map[string]int //語法宣告 map ///map 的零值是 nil
+	fmt.Println(m) map[]
+	if m == nil {
+		fmt.Println("m is nil")
+	}
+	// m["one hundred"] = 100 //panic: assignment to entry in nil map
+
+	var m2 = make(map[string]int) //使用內建的 make() 函數初始化 map
+
+	fmt.Println(m2)
+
+	if m2 == nil {
+		fmt.Println("m2 is nil")
+	} else {
+		fmt.Println("m2 is not nil")
+	}
+
+	m2["one hundred"] = 100
+	fmt.Println(m2)
+
+	var m3 = map[string]int{} //可以透過將大括號留空，使用 map 定數來建立一個空 map
+	if m3 == nil {
+		fmt.Println("m3 is nil")
+	} else {
+		fmt.Println("m3 is not nil")
+	}
+	m3["one hundred"] = 100
+	fmt.Println(m3)
+}
+
+
+```
+
+#### Map literals
+
+Map literals are like struct literals, but the keys are required.
+
+
+
+```go
+package main
+
+import "fmt"
+
+type Vertex struct {
+	Lat, Long float64
+}
+
+var m = map[string]Vertex{
+	"Bell Labs": Vertex{
+		40.68433, -74.39967,
+	},
+	"Google": Vertex{
+		37.42202, -122.08408,
+	},
+}
+
+func main() {
+	fmt.Println(m)
+}
+
+```
+
+
 
 #### 加入鍵值到 map <a href="#jia-ru-xiang-mu-jian-zhi-dui-dao-map" id="jia-ru-xiang-mu-jian-zhi-dui-dao-map"></a>
 
