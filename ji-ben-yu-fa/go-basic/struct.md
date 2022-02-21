@@ -6,7 +6,7 @@
 * 使用\&XXX{}或是new(XXX)可以宣告指針且初始化，可以直接使用
 * 使用XXX{}返或一般var struct回的是一个struct類型的值，而不是指针
 
-**\***new 會自動用 zeroed value 來初始化型別且拿到**回傳指標**
+<mark style="color:blue;">**\*使用**</mark><mark style="color:blue;">new(T) 會自動用 zeroed value 來初始化型別且拿到</mark><mark style="color:blue;">**回傳指標**</mark>
 
 ```
 type Person struct {
@@ -90,4 +90,28 @@ func main(){
 	P1 := PersonInfo{Name: "Jannet", AddrInfo: AddrInfo{Code: 723, Location: "Taipai"}}
 	fmt.Printf("%v Location=%s\n", P1, P1.Location)
 	}
+```
+
+#### &#x20;function type
+
+```
+//   function type
+type GetFullName func(string, string) string
+type employee struct {
+	firstName   string
+	lastName    string
+	age         int
+	GetFullName GetFullName
+}
+func main(){
+	em2 := employee{
+		firstName: "Andy",
+		lastName:  "Li",
+		GetFullName: func(firstName string, lastName string) string {
+			return firstName + " " + lastName //TODO TBD why??
+		},
+	}
+	
+	fmt.Printf("%v GetFullName=%s\n", em2, em2.GetFullName(em2.firstName, em2.lastName))
+}
 ```
