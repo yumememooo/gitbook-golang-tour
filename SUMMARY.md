@@ -15,6 +15,7 @@
     * [map 操作](ji-ben-yu-fa/go-types/arrayslicemap-xuan-gao/map-cao-zuo.md)
   * [Reflection](ji-ben-yu-fa/go-types/reflection.md)
   * [unsafe.Sizeof](ji-ben-yu-fa/go-types/unsafe.sizeof.md)
+  * [struct](ji-ben-yu-fa/go-types/struct.md)
 * [interface](ji-ben-yu-fa/interface/README.md)
   * [空的接口，interface{}](ji-ben-yu-fa/interface/kong-de-jie-kou-interface.md)
   * [\[Demo\]interfce定義行為](ji-ben-yu-fa/interface/demointerfce-ding-yi-hang-wei.md)
