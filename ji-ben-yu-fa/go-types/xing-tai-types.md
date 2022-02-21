@@ -4,12 +4,19 @@ description: 基本型態介紹
 
 # 型態 Types
 
-###
+### 型態用法
 
-* 值類型包括 int、float、bool、string、struct 以及數組&#x20;
-* 引用類型包括指針、切片、map、chan（通道）&#x20;
+* 值類型包括 int、float、bool、string、struct 以及數組(array)
+* 引用類型包括指針(Pointer)、切片(slice)、map、通道(chan)&#x20;
 * 可以透過fmt.Printf("Type: %T ", xx) 印出該類型的type
 * 可以通過 math.MaxInt64、math.MinInt64 的方式得到預定義的某類型最大最小值。
+
+### Zero values
+
+* <mark style="color:blue;">**0**</mark> for numeric types
+* <mark style="color:blue;">**false**</mark> for the boolean type
+* <mark style="color:blue;">**""**</mark> (the empty string) for strings.
+* <mark style="color:blue;">**nil**</mark> for Pointer/Interface/Slice/Map/Channel/Function
 
 ### Basic types
 
@@ -32,11 +39,7 @@ description: 基本型態介紹
 
 
 
-### Zero values
-
-* <mark style="color:blue;">**0**</mark> for numeric types,&#x20;
-* <mark style="color:blue;">**false**</mark> for the boolean type
-* <mark style="color:blue;">**""**</mark> (the empty string) for strings.
+###
 
 #### 參考
 
