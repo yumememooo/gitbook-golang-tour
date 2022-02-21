@@ -58,7 +58,7 @@ import "fmt"
 
 func main() {
 	var m map[string]int //語法宣告 map ///map 的零值是 nil
-	fmt.Println(m)
+	fmt.Println(m) map[]
 	if m == nil {
 		fmt.Println("m is nil")
 	}
