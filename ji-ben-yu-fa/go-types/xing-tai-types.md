@@ -10,6 +10,7 @@ description: 基本型態介紹
 * 引用類型包括指針(Pointer)、切片(slice)、map、通道(chan)&#x20;
 * 可以透過fmt.Printf("Type: %T ", xx) 印出該類型的type
 * 可以通過 math.MaxInt64、math.MinInt64 的方式得到預定義的某類型最大最小值。
+* new 會自動用 zeroed value 來初始化型別，但要注意像是map/slice/chan等會是nil。
 
 ### Zero values
 

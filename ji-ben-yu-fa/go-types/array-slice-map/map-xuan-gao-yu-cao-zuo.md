@@ -2,12 +2,13 @@
 
 ### 映射 `MAP`
 
-`宣告`
-
 * 使用var m map\[string]int 可以宣告一個nil的map，<mark style="color:red;">需注意未初始化就塞值會引發panic</mark>
 * **使用內建的 `make()` 函數初始化 map，**該函數將返回已初始化及可以使用的 map。
   * 或是var map\[string]int{}可以透過將大括號留空，建立一個空 map
+  * 須注意如果使用new(map\[string]string)會產生nil map，操作會引發panic
 * 傳遞時為**按引用傳遞**的，對元素的修改將導致函式外的值也發生改變
+
+`宣告`
 
 ```
 
