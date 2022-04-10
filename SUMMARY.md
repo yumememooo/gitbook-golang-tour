@@ -20,7 +20,7 @@
   * [參考文章](ji-ben-yu-fa/go-basic/can-kao-wen-zhang.md)
 * [interface](ji-ben-yu-fa/interface/README.md)
   * [空的接口，interface{}](ji-ben-yu-fa/interface/kong-de-jie-kou-interface.md)
-  * [\[Demo\]interfce定義行為](ji-ben-yu-fa/interface/demointerfce-ding-yi-hang-wei.md)
+  * [用interfce定義行為](ji-ben-yu-fa/interface/yong-interfce-ding-yi-hang-wei.md)
   * [ERROR](ji-ben-yu-fa/interface/error.md)
 * [GO rountine](ji-ben-yu-fa/go-rountine/README.md)
   * [創建](ji-ben-yu-fa/go-rountine/chuang-jian.md)

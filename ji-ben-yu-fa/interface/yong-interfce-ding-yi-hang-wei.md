@@ -1,6 +1,6 @@
-# \[Demo]interfce定義行為
+# 用interfce定義行為
 
-> 前面的[interface主章節](./)已經有收藏很多文章介紹如何定義了，這邊直接進入練習!!!不多作介紹。
+> 前面的[interface主章節](./)已經有收藏很多文章介紹如何定義了，這邊直接進入練習如何定義行為。
 
 
 
@@ -9,7 +9,7 @@
 * 定義一般類型(string)與其方法
 * 定義Stringer 介面
 * 定義person類型與其方法與定義Person介面
-* 定義sSuperMan 類型與其方法與定義SuperMan 介面
+* 定義SuperMan 類型與其方法與定義SuperMan 介面
 * 定義一個方法showTypeAndDoTheirFunc(any interface{})可以接受任何類型
   * 類型斷言判斷效果與執行各類型的方法
 * Main宣告介面或是類型的方式不同顯示
