@@ -14,20 +14,11 @@ go env -w GOFLAGS=-mod=mod
 go help get usage: go get [-d] [-t] [-u] [-v] [-insecure] [build flags] [packages]
 ```
 
-\
 
-
-
-
-\-------------------
 
 ### 參考
 
 * 官方Go Modules Reference  [https://go.dev/ref/mod](https://go.dev/ref/mod)
-* Go 1.16 中關於 go get 和 go install 你需要注意的地方\
-  [https://iter01.com/572906.html](https://iter01.com/572906.html)
-* Go 1.17 新特性：Module 有哪些變化？\
-  [https://www.gushiciku.cn/pl/gnIA/zh-tw](https://www.gushiciku.cn/pl/gnIA/zh-tw)
 * go mod graph 可视化——gmchart\
   [https://segmentfault.com/a/1190000038897207](https://segmentfault.com/a/1190000038897207)
 

@@ -49,4 +49,9 @@ In Go 1.15 and lower, the `-mod=mod` flag was enabled by default, so updates wer
 
 ### 參考文章
 
-* [https://www.jianshu.com/p/f27c4f561544#module](https://www.jianshu.com/p/f27c4f561544#module) golang 1.14 1.15 1.16 新特性一览
+* &#x20;golang 1.14 1.15 1.16 新特性一览\
+  [https://www.jianshu.com/p/f27c4f561544#module](https://www.jianshu.com/p/f27c4f561544#module)
+* Go 1.16 中關於 go get 和 go install 你需要注意的地方\
+  [https://iter01.com/572906.html](https://iter01.com/572906.html)
+* Go 1.17 新特性：Module 有哪些變化？\
+  [https://www.gushiciku.cn/pl/gnIA/zh-tw](https://www.gushiciku.cn/pl/gnIA/zh-tw)
