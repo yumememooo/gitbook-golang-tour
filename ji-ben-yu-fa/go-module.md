@@ -16,16 +16,17 @@ go help get usage: go get [-d] [-t] [-u] [-v] [-insecure] [build flags] [package
 
 
 
+如果你看到以下錯誤訊息，表示沒有先下go mod init
+
+```
+//go.mod file not found in current directory or any parent directory; see 'go help modules'
+```
+
 ### 參考
 
 * 官方Go Modules Reference  [https://go.dev/ref/mod](https://go.dev/ref/mod)
 * go mod graph 可视化——gmchart\
   [https://segmentfault.com/a/1190000038897207](https://segmentfault.com/a/1190000038897207)
 
-\-----------------------
 
-\*如果你看到以下錯誤訊息，表示沒有先下go mod init
 
-```
-//go.mod file not found in current directory or any parent directory; see 'go help modules'
-```
