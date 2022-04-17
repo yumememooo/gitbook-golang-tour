@@ -42,6 +42,7 @@
   * [\[Code Snippet\] 程式碼快捷鍵](qi-ta/ide-vscode-xiang-guan-she-ding/code-snippet-cheng-shi-ma-kuai-jie-jian.md)
   * [\[插件\]開發推薦使用](qi-ta/ide-vscode-xiang-guan-she-ding/cha-jian-kai-fa-tui-jian-shi-yong.md)
   * [\[debug setting\]](qi-ta/ide-vscode-xiang-guan-she-ding/debug-setting.md)
+* [壓測工具](qi-ta/ya-ce-gong-ju.md)
 
 ***
 
