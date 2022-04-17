@@ -28,7 +28,8 @@
 
 ## 進階 / 應用
 
-* [Gin Web Framework](jin-jie-ying-yong/gin-web-framework.md)
+* [Gin Web Framework](jin-jie-ying-yong/gin-web-framework/README.md)
+  * [Gin+swagger](jin-jie-ying-yong/gin-web-framework/gin+swagger.md)
 * [md5加密庫(crypto/md5)](jin-jie-ying-yong/md5-jia-mi-ku-cryptomd5.md)
 
 ## 其他

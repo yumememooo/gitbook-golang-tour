@@ -1,14 +1,4 @@
----
-description: Gin is a HTTP web framework written in Go (Golang)
----
-
-# Gin Web Framework
-
-### 範例程式碼
-
-[lib\_framwork/gin](https://github.com/yumememooo/go-my-playground/tree/main/2.\_advance/lib\_framwork/gin)
-
-### ==========================
+# Gin+swagger
 
 ### 參考
 
@@ -33,4 +23,3 @@ https://github.com/gin-gonic/gin
 https://github.com/swaggo/gin-swagger
 
 swag tool install https://github.com/swaggo/swag
-
