@@ -1,6 +1,7 @@
 # Table of contents
 
 * [😀 Golang My Playground](README.md)
+  * [book location](golang-my-playground/book-location.md)
 
 ## 基本語法
 
@@ -35,6 +36,11 @@
 * [WebSocket](jin-jie-ying-yong/websocket.md)
 * [部署 dockerfile](jin-jie-ying-yong/bu-shu-dockerfile.md)
 
+## 監測/觀察
+
+* [pprof](jian-ce-guan-cha/pprof.md)
+* [壓測工具](jian-ce-guan-cha/ya-ce-gong-ju.md)
+
 ## 其他
 
 * [收藏庫](qi-ta/shou-cang-ku.md)
@@ -43,7 +49,3 @@
   * [\[插件\]開發推薦使用](qi-ta/ide-vscode-xiang-guan-she-ding/cha-jian-kai-fa-tui-jian-shi-yong.md)
   * [\[debug setting\]](qi-ta/ide-vscode-xiang-guan-she-ding/debug-setting.md)
 * [壓測工具](qi-ta/ya-ce-gong-ju.md)
-
-***
-
-* [後記](hou-ji.md)
