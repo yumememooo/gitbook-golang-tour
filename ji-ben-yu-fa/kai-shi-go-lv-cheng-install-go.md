@@ -1,5 +1,6 @@
 ---
 description: 開發Go環境的安裝步驟，
+layout: editorial
 ---
 
 # \[開始Go旅程] Install Go
@@ -38,7 +39,9 @@ PATH:=%USERPROFILE%\go\bin
 
 \--------------------------------------------------
 
-#### 自己的放置習慣 (windows)-自行更改系統環境變數
+### &#x20;(windows)-自行更改系統環境變數
+
+自己的放置習慣
 
 ```
 GOPATH=D:\go
@@ -50,7 +53,33 @@ D:\go\bin 安裝工具，資料夾會自動建立
 D:\go\pkg 安裝相依庫，資料夾會自動建立。
 ```
 
-> 其實也可以從下載資料夾直接安裝，相關的環境變數要設定好。
+
+
+### (MAC)配置環境變數 <a href="#mac-an-zhuang-bi-ji" id="mac-an-zhuang-bi-ji"></a>
+
+* vi \~/.bash\_profile
+
+```
+//輸入a編輯
+export GOROOT="/usr/local/go"
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOPATH/bin 
+export PATH=$PATH:$GOROOT/bin
+
+//GOROOT表示GO安裝的目錄
+//GOPATH是自訂想要放置程式的地方
+//打完後esc輸入：wq存擋
+```
+
+* 執行 bash profile
+
+```
+source ~/.bash_profile
+```
+
+
+
+
 
 {% hint style="info" %}
 開始寫個簡單的範例main.go
@@ -77,3 +106,6 @@ impl.exe
 staticcheck.exe
 swag.exe
 ```
+
+
+
