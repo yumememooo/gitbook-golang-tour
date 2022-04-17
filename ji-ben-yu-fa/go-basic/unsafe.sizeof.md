@@ -6,7 +6,7 @@ description: >-
 
 # unsafe.Sizeof
 
-#### 返回在內存中的字節byte大小
+### 返回在內存中的字節byte大小
 
 ```
 package main

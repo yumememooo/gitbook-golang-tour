@@ -5,9 +5,9 @@ layout: editorial
 
 # \[開始Go旅程] Install Go
 
-### 步驟:
+### 安裝三步驟
 
-1.去官網下載msi安裝go&#x20;
+1. 去官網下載msi安裝go&#x20;
 
 確認安裝，開啟終端機輸入go version
 
@@ -16,11 +16,29 @@ layout: editorial
 go version go1.17.6 windows/amd64
 ```
 
-2.下載IDE vscode \[個人習慣用IDE]
+安裝完後會有預設的環境變數，可以用自己習慣的環境變數更改．
 
-3.開啟vscode 安裝插件extension Go&#x20;
+2\. 下載IDE vscode \[個人習慣用IDE]
+
+3\. 開啟vscode 安裝插件extension Go&#x20;
 
 右下角會要求你安裝周邊的go tool。 會被安裝在 $GOPATH\bin下。
+
+
+
+\=============================
+
+#### 預設環境變數說明：
+
+```
+GOROOT // ＧＯ的安裝資料夾位置，之後要升級就改這個資料夾
+GOBIN // 安裝的可執行檔
+GOPATH //程式碼位置，建議更改到自己習慣的資料夾
+```
+
+
+
+### &#x20;(windows)-自行更改系統環境變數
 
 * 預設環境變數(Windows)
 
@@ -34,12 +52,6 @@ PATH:=%USERPROFILE%\go\bin
 ```
 
 如果有執行過安裝Tool工具，就會發現C:\Users\xxx\go資料夾被新增，且內部還有bin/pkg的資料夾。
-
-
-
-\--------------------------------------------------
-
-### &#x20;(windows)-自行更改系統環境變數
 
 自己的放置習慣
 
