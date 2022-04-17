@@ -1,6 +1,6 @@
 # Table of contents
 
-* [😀 Golang MY Playground](README.md)
+* [😀 Golang My Playground](README.md)
 
 ## 基本語法
 
@@ -32,15 +32,16 @@
   * [Gin+swagger](jin-jie-ying-yong/gin-web-framework/gin+swagger.md)
 * [md5加密庫(crypto/md5)](jin-jie-ying-yong/md5-jia-mi-ku-cryptomd5.md)
 * [zaplog](jin-jie-ying-yong/zaplog.md)
-* [Page 1](jin-jie-ying-yong/page-1.md)
+* [WebSocket](jin-jie-ying-yong/websocket.md)
+* [部署 dockerfile](jin-jie-ying-yong/bu-shu-dockerfile.md)
 
 ## 其他
 
 * [收藏庫](qi-ta/shou-cang-ku.md)
-* [\[IDE\] VSCODE相關](qi-ta/ide-vscode-xiang-guan/README.md)
-  * [\[Code Snippet\] 程式碼快捷鍵](qi-ta/ide-vscode-xiang-guan/code-snippet-cheng-shi-ma-kuai-jie-jian.md)
-  * [\[插件\]開發推薦使用](qi-ta/ide-vscode-xiang-guan/cha-jian-kai-fa-tui-jian-shi-yong.md)
-  * [\[debug setting\]](qi-ta/ide-vscode-xiang-guan/debug-setting.md)
+* [\[IDE\] VSCODE相關設定](qi-ta/ide-vscode-xiang-guan-she-ding/README.md)
+  * [\[Code Snippet\] 程式碼快捷鍵](qi-ta/ide-vscode-xiang-guan-she-ding/code-snippet-cheng-shi-ma-kuai-jie-jian.md)
+  * [\[插件\]開發推薦使用](qi-ta/ide-vscode-xiang-guan-she-ding/cha-jian-kai-fa-tui-jian-shi-yong.md)
+  * [\[debug setting\]](qi-ta/ide-vscode-xiang-guan-she-ding/debug-setting.md)
 
 ***
 
