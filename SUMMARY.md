@@ -30,7 +30,9 @@
   * [channel](ji-ben-yu-fa/goroutine/channel/README.md)
     * [使用Select實現無阻塞讀取](ji-ben-yu-fa/goroutine/channel/shi-yong-select-shi-xian-wu-zu-sai-du-qu.md)
   * [記憶體洩漏](ji-ben-yu-fa/goroutine/ji-yi-ti-xie-lou.md)
+  * [sync.map](ji-ben-yu-fa/goroutine/sync.map.md)
 * [不同版本的差異](ji-ben-yu-fa/bu-tong-ban-ben-de-cha-yi.md)
+* [time 時間包](ji-ben-yu-fa/time-shi-jian-bao.md)
 
 ## 進階 / 應用
 
@@ -54,4 +56,3 @@
   * [\[Code Snippet\] 程式碼快捷鍵](qi-ta/ide-vscode-xiang-guan-she-ding/code-snippet-cheng-shi-ma-kuai-jie-jian.md)
   * [\[插件\]開發推薦使用](qi-ta/ide-vscode-xiang-guan-she-ding/cha-jian-kai-fa-tui-jian-shi-yong.md)
   * [\[debug setting\]](qi-ta/ide-vscode-xiang-guan-she-ding/debug-setting.md)
-* [壓測工具](qi-ta/ya-ce-gong-ju.md)
