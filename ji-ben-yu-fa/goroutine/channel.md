@@ -64,3 +64,14 @@ fmt.print(“done”)  //這段要等塞完才會繼續。
 }()
 
 ```
+
+**讀寫channel的幾種不同寫法**
+
+* 一般的讀寫用法，當通道滿的時候，goroutine就會阻塞等待可以再塞才會往下進行。
+* 使用Select寫法default或timeout實現無阻塞讀寫，但要注意阻塞時處理方式避免丟失。
+* &#x20;當通常滿了之後經由default處理 當一段時間未收到進行處理&#x20;
+* 使用select同時處理多個channel通道（但只處理最先發生的channel）&#x20;
+* 讀取端：除了<- 也可以改用 for i := range ch 來不斷從 channel 接收值，直到它被關閉&#x20;
+* 讀取端：\_, ok := <-ch, ok用來判斷通道是否關閉&#x20;
+* 讀取端：worker pool的設計常用来加速處理執行較耗时的重任務，且為避免goroutine的過度創建，需要指定工作池的大小 -> https://gobyexample.com/worker-pools&#x20;
+* 使用chan struct{}空結構體作为信號channel ….
