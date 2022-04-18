@@ -1,4 +1,4 @@
-# GO routine
+# Goroutine
 
 **併發與協程**
 
