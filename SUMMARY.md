@@ -28,6 +28,7 @@
   * [資料競爭 data race](ji-ben-yu-fa/goroutine/zi-liao-jing-zheng-data-race.md)
   * [互斥鎖](ji-ben-yu-fa/goroutine/hu-chi-suo.md)
   * [channel](ji-ben-yu-fa/goroutine/channel.md)
+  * [記憶體洩漏](ji-ben-yu-fa/goroutine/ji-yi-ti-xie-lou.md)
 * [不同版本的差異](ji-ben-yu-fa/bu-tong-ban-ben-de-cha-yi.md)
 
 ## 進階 / 應用
