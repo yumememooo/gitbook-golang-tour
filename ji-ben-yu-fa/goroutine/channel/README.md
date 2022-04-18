@@ -12,7 +12,7 @@ description: '使用channel : goroutine之間的溝通橋樑'
 * 互斥鎖, channel内部有Mutex&#x20;
 * 含有buffersize 的通道 預設雙向，可以控制關閉通道。
 
-![](../../.gitbook/assets/go.png)
+![](../../../.gitbook/assets/go.png)
 
 ### 宣告方式:&#x20;
 
