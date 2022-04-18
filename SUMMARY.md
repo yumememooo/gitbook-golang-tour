@@ -23,8 +23,9 @@
   * [空的接口，interface{}](ji-ben-yu-fa/interface/kong-de-jie-kou-interface.md)
   * [用interfce定義行為](ji-ben-yu-fa/interface/yong-interfce-ding-yi-hang-wei.md)
   * [ERROR](ji-ben-yu-fa/interface/error.md)
-* [GO routine](ji-ben-yu-fa/go-routine/README.md)
-  * [創建Goroutine](ji-ben-yu-fa/go-routine/chuang-jian-goroutine.md)
+* [Goroutine](ji-ben-yu-fa/goroutine/README.md)
+  * [創建Goroutine](ji-ben-yu-fa/goroutine/chuang-jian-goroutine.md)
+  * [資料競爭 data race](ji-ben-yu-fa/goroutine/zi-liao-jing-zheng-data-race.md)
 * [不同版本的差異](ji-ben-yu-fa/bu-tong-ban-ben-de-cha-yi.md)
 
 ## 進階 / 應用
