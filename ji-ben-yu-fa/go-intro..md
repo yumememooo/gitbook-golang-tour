@@ -24,4 +24,4 @@ coverY: 0
 
 **To Go or Not to ?**
 
-![](../.gitbook/assets/go\_google\_case\_study\_carousel.png)
+![](../.gitbook/assets/motorcycle.svg)
