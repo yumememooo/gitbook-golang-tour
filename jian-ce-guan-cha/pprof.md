@@ -39,3 +39,11 @@ Count	Profile
 * web 繪出可視化圖形 特別是對於“runtime.gopark”，這表示goroutine將處於“掛起”狀態，由運行時調度程序暫停
 
 ![](../.gitbook/assets/image.png)
+
+### continuous profiling
+
+* net/http/pprof獲取的分析是動態的，需在負載較大或有問題時分析。&#x20;
+* Promethus Metrix&#x20;
+* pyroscope https://pyroscope.io/
+
+<mark style="color:blue;">**\*分析工具建議開取一種即可，會影響性能。**</mark>
