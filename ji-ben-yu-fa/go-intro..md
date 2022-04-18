@@ -15,3 +15,9 @@ description: Go是Google開發的一種靜態強型別、編譯型、並發型�
 ＃部署方便：Go 交叉編譯(跨平台編譯)，二進位制可執行檔案
 
 ＃簡單方便的併發機制 輕量級線程Goroutines，天生併發的設計，開銷小
+
+**預期可縮小70\~80% storage/memory**
+
+****
+
+**To Go or Not to ?**
