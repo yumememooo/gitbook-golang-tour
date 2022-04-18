@@ -116,7 +116,6 @@ gopls.exe
 gotests.exe
 impl.exe
 staticcheck.exe
-swag.exe
 ```
 
 
