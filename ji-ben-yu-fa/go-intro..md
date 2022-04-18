@@ -25,3 +25,5 @@ coverY: 0
 **To Go or Not to ?**
 
 ![](../.gitbook/assets/motorcycle.svg)
+
+[https://go.dev/blog/](https://go.dev/blog/)
