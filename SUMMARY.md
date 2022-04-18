@@ -34,17 +34,18 @@
 
 ## 進階 / 應用
 
+* [部署 dockerfile](jin-jie-ying-yong/bu-shu-dockerfile.md)
 * [Gin Web Framework](jin-jie-ying-yong/gin-web-framework/README.md)
   * [Gin+swagger](jin-jie-ying-yong/gin-web-framework/gin+swagger.md)
-* [md5加密庫(crypto/md5)](jin-jie-ying-yong/md5-jia-mi-ku-cryptomd5.md)
 * [zaplog](jin-jie-ying-yong/zaplog.md)
 * [WebSocket](jin-jie-ying-yong/websocket.md)
-* [部署 dockerfile](jin-jie-ying-yong/bu-shu-dockerfile.md)
+* [md5加密庫(crypto/md5)](jin-jie-ying-yong/md5-jia-mi-ku-cryptomd5.md)
 
-## 監測/觀察
+## 監測/觀察/品質
 
-* [pprof](jian-ce-guan-cha/pprof.md)
-* [壓測工具](jian-ce-guan-cha/ya-ce-gong-ju.md)
+* [pprof](jian-ce-guan-cha-pin-zhi/pprof.md)
+* [壓測工具](jian-ce-guan-cha-pin-zhi/ya-ce-gong-ju.md)
+* [gosec](jian-ce-guan-cha-pin-zhi/gosec.md)
 
 ## 其他
 
