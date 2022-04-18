@@ -1,5 +1,7 @@
 ---
 description: Go是Google開發的一種靜態強型別、編譯型、並發型，並具有垃圾回收功能的程式語言。
+cover: ../.gitbook/assets/go_google_case_study_carousel.png
+coverY: 0
 ---
 
 # Go intro.
@@ -21,3 +23,5 @@ description: Go是Google開發的一種靜態強型別、編譯型、並發型�
 ****
 
 **To Go or Not to ?**
+
+![](../.gitbook/assets/go\_google\_case\_study\_carousel.png)
