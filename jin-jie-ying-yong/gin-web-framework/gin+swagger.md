@@ -1,9 +1,5 @@
 # Gin+swagger
 
-### 範例程式碼
-
-[lib\_framwork/gin](https://github.com/yumememooo/go-my-playground/tree/main/2.\_advance/lib\_framwork/gin)
-
 ### 參考
 
 #### Gin 教學
