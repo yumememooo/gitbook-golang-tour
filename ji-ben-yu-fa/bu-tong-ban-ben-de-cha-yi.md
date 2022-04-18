@@ -23,9 +23,15 @@ Go 1.17&#x20;
 
 新特性:這次最主要的變化有：
 
-* Module graph pruning：Module 依賴圖修剪
+* Module graph pruning：Module 依賴圖修剪&#x20;
+  * module依賴圖修剪也帶來了一個副作用，那就是go.mod文件size的變大。
+  * 因為Go 1.17版本後，每次go mod tidy（當go.mod中的go版本為1.17時），go命令都會對main module的依賴做一次深度掃描(deepening scan)，並將main module的所有直接和間接依賴都記錄在go.mod中（之前說的版本只記錄直接依賴）。go 1.17將直接依賴和間接依賴分別放在兩個不同的require塊兒中。
 * Lazy Loading：Module 延遲載入 Go 1.17 開發新的 Module 功能，特別是懶惰Module載入，這將使 Module 載入過程更快、更穩定。延遲載入就一句話：那些根本沒有用上的模組（比如上面例子中的模組 c），Go 1.17 後，Go 命令不會去讀取其 go.mod 檔案。如果之後需要了，再會去載入。
 * 新增`廢棄Deprecated` 註釋
+
+\
+\
+
 
 
 
@@ -55,3 +61,5 @@ In Go 1.15 and lower, the `-mod=mod` flag was enabled by default, so updates wer
   [https://iter01.com/572906.html](https://iter01.com/572906.html)
 * Go 1.17 新特性：Module 有哪些變化？\
   [https://www.gushiciku.cn/pl/gnIA/zh-tw](https://www.gushiciku.cn/pl/gnIA/zh-tw)
+* Go 1.17中值得关注的几个变化\
+  [https://tonybai.com/2021/08/17/some-changes-in-go-1-17/](https://tonybai.com/2021/08/17/some-changes-in-go-1-17/)
