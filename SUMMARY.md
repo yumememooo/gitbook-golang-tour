@@ -1,10 +1,10 @@
 # Table of contents
 
 * [😀 Golang My Playground](README.md)
-  * [book location](golang-my-playground/book-location.md)
 
 ## 基本語法
 
+* [Go intro.](ji-ben-yu-fa/go-intro..md)
 * [\[開始Go旅程\] Install Go](ji-ben-yu-fa/kai-shi-go-lv-cheng-install-go.md)
 * [Go Module](ji-ben-yu-fa/go-module.md)
 * [GO basic](ji-ben-yu-fa/go-basic/README.md)
