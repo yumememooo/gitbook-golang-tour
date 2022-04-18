@@ -1,9 +1,5 @@
 # 不同版本的差異
 
-
-
-
-
 ### 不同版本的功能
 
 Go 1.15 以前
@@ -14,7 +10,7 @@ Go1.16&#x20;
 
 * **GO111MODULE 環境變數默認 on**
 * 更新依赖**只能使用 go get 命令**，go build 和 go test 將不在更改mod相關文件。
-* 下載安裝 Go 二進位制程式，<mark style="background-color:orange;">不再使用 go get</mark>，而是 go install，go get 只用來下載普通包 必須要避免執行 go get 命令時，讓它接觸到我們的 go.mod 檔案 ，否則它會將我們安裝的工具作為一個依賴。
+* 下載安裝 Go 二進位制程式，<mark style="color:orange;">不再使用 go get，而是 go install</mark>，go get 只用來下載普通包 必須要避免執行 go get 命令時，讓它接觸到我們的 go.mod 檔案 ，否則它會將我們安裝的工具作為一個依賴。
 * 另外新增版本`撤回`。
 
 
