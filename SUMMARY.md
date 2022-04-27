@@ -1,6 +1,6 @@
 # Table of contents
 
-* [😀 Golang My Playground](README.md)
+* [😀 Golang Tour](README.md)
 
 ## 基本語法
 
