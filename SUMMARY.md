@@ -24,7 +24,8 @@
   * [用interfce定義行為](basic/interface/yong-interfce-ding-yi-hang-wei.md)
   * [ERROR](basic/interface/error.md)
 * [Goroutine](basic/goroutine/README.md)
-  * [創建Goroutine](basic/goroutine/chuang-jian-goroutine.md)
+  * [創建Goroutine](basic/goroutine/chuang-jian-goroutine/README.md)
+    * [for循環+goroutine的坑](basic/goroutine/chuang-jian-goroutine/for-xun-huan-+goroutine-de-keng.md)
   * [資料競爭 data race](basic/goroutine/zi-liao-jing-zheng-data-race.md)
   * [互斥鎖](basic/goroutine/hu-chi-suo.md)
   * [channel](basic/goroutine/channel/README.md)
@@ -42,6 +43,7 @@
 * [zaplog](advance-application/zaplog.md)
 * [WebSocket](advance-application/websocket.md)
 * [md5加密庫(crypto/md5)](advance-application/md5-jia-mi-ku-cryptomd5.md)
+* [Viper](advance-application/viper.md)
 
 ## monitor-quality
 
