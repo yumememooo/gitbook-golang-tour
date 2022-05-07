@@ -4,7 +4,7 @@ cover: ../.gitbook/assets/go_google_case_study_carousel.png
 coverY: 0
 ---
 
-# Go intro.
+# why Go ?
 
 #### **設計初衷**：
 

@@ -1,0 +1,67 @@
+---
+description: Type convert 型態轉換
+---
+
+# Type convert
+
+#### 自動類型轉換&#x20;
+
+var myInt =123
+
+#### 隱式整數類型轉換&#x20;
+
+使用並不會感覺到，變量之間沒有隱式類型轉換。但是編譯器可以進行變量和常量之間的隱式類型轉換&#x20;
+
+```
+package main
+
+import "fmt"
+
+func main() {
+
+	var myInt1 int = 123 //將常量 123 的整數型別隱式轉換為 int 型別的值
+	var myInt2 int = 123.0 //將浮點型別的常量隱式轉換為整數變數
+	//var myInt3 int = 123.1//這樣是不行的 cannot use 123.1 (untyped float constant) as int value in variable declaration (truncated) compiler TruncatedFloat
+	var myFloat1 float64 = 1 //在整數型別的常量到 float64 型別的變數之間執行隱式轉換
+
+	fmt.Printf("%T %v \n", myInt1, myInt1)//int 123 
+	fmt.Printf("%T %v \n", myInt2, myInt2)//int 123 
+	fmt.Printf("%T %v \n", myFloat1, myFloat1)//float64 1 
+}
+
+```
+
+#### 強制轉換Type conversions  <mark style="color:blue;">T(v)</mark>&#x20;
+
+* 又稱顯式（explicitly）轉換
+* The expression <mark style="color:blue;">T(v)</mark> converts the value v to the type T.
+* 相同結構struct（忽略struct tag）也可以互轉 . &#x20;
+  * see [https://tip.golang.org/doc/go1.8#language](https://tip.golang.org/doc/go1.8#language)
+
+```
+type User struct {
+	Name string
+}
+
+type UserStru2 struct {
+	Name string
+}
+
+func main() {
+	var myInt8 int8 = 88
+	myInt64 := int64(myInt8)
+	fmt.Printf("Type: %T myInt64: %v\n", myInt64, myInt64)
+
+	myInt8_2 := int8(myInt64)
+	fmt.Printf("Type: %T myInt8_2: %v\n", myInt8_2, myInt8_2)
+
+	var myInt8_3 int8 = -88
+	myInt8_4 := uint8(myInt8_3)
+	fmt.Printf("Type: %T myInt8_2: %v\n", myInt8_4, myInt8_4)
+	
+	user1 := User{Name: "test"}
+	fmt.Printf("%T %v \n", user1, user1) //main.User {test}
+	user2 := User(UserStru2{Name: "test"}) //T(v)
+	fmt.Printf("%T %v \n", user2, user2)//main.User {test}
+}
+```

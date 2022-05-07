@@ -4,12 +4,12 @@
 
 ## basic
 
-* [why Go ?](basic/why-go.md)
-* [\[Start! ->\] Install Go](basic/start-greater-than-install-go.md)
+* [why Go ?](basic/go-intro..md)
+* [\[Start! ->\] Install Go](basic/kai-shi-go-lv-cheng-install-go.md)
 * [Go Module](basic/go-module.md)
 * [GO basic](basic/go-basic/README.md)
-  * [base Types](basic/go-basic/base-types.md)
-  * [Type convert](basic/go-basic/type-convert.md)
+  * [base Types](basic/go-basic/xing-tai-types.md)
+  * [Type convert](basic/go-basic/xing-tai-zhuan-huan-type-convert.md)
   * [array/slice/map](basic/go-basic/array-slice-map/README.md)
     * [array 宣告與操作](basic/go-basic/array-slice-map/array-xuan-gao-yu-cao-zuo.md)
     * [slice 宣告與操作](basic/go-basic/array-slice-map/slice-xuan-gao-yu-cao-zuo.md)
