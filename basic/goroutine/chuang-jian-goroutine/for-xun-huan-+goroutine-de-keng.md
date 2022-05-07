@@ -1,6 +1,6 @@
 # for循環+goroutine的坑
 
-#### for循環+goroutine的坑 (<mark style="color:red;">Golang中Routine闭包中的一个坑/</mark>協程引用迴圈變數的問題)
+#### for循環+goroutine的坑 (<mark style="color:red;">Golang中Routine闭包中的一个坑/協程引用迴圈變數的問題</mark>)
 
 * 主協程的迴圈很快就跑完了，而各個協程才開始跑，此時 `i` 的值可能會重複出現指向最後一個值
 

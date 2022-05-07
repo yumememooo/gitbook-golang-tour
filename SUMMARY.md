@@ -1,6 +1,6 @@
 # Table of contents
 
-* [😀 Golang Tour](README.md)
+* [🌸 Golang Tour](README.md)
 
 ## basic
 
