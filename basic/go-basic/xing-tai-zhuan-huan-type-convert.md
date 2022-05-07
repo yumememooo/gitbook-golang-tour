@@ -4,11 +4,11 @@ description: Type convert 型態轉換
 
 # Type convert
 
-#### 自動類型轉換&#x20;
+### 自動類型轉換&#x20;
 
 var myInt =123
 
-#### 隱式整數類型轉換&#x20;
+### 隱式整數類型轉換&#x20;
 
 使用並不會感覺到，變量之間沒有隱式類型轉換。但是編譯器可以進行變量和常量之間的隱式類型轉換&#x20;
 
@@ -31,7 +31,7 @@ func main() {
 
 ```
 
-#### 強制轉換Type conversions  <mark style="color:blue;">T(v)</mark>&#x20;
+### 強制轉換 <mark style="color:blue;">T(v)</mark> Type conversions &#x20;
 
 * 又稱顯式（explicitly）轉換
 * The expression <mark style="color:blue;">T(v)</mark> converts the value v to the type T.
@@ -65,3 +65,21 @@ func main() {
 	fmt.Printf("%T %v \n", user2, user2)//main.User {test}
 }
 ```
+
+### 斷言轉換 x.(T) Type assertions
+
+see [https://go.dev/ref/spec#Type\_assertions](https://go.dev/ref/spec#Type\_assertions)
+
+斷言通過判斷變量是否可以轉換成某一個類型
+
+```
+var s = x.(T)
+```
+
+如果斷言類型成立，則表達式返回值就是T 類型的x，如果斷言失敗就會觸發panic。
+
+```
+s, ok := x.(T)
+```
+
+是ok 會返回是否斷言成功不會出現panic，ok 就表示是否是成功了。

@@ -3,7 +3,7 @@ description: 開發Go環境的安裝步驟，
 layout: editorial
 ---
 
-# \[Start! ->] Install Go
+# \[開始Go旅程] Install Go
 
 ### 安裝三步驟
 

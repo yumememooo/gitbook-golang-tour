@@ -4,6 +4,13 @@ description: 基本型態介紹
 
 # base Types
 
+### 宣告
+
+```
+var 變量名 變量類型
+var a, b *int//指针类型
+```
+
 ### 型態用法
 
 * <mark style="color:blue;">值類型</mark>包括 int、float、bool、string、struct 以及數組(array)
@@ -20,6 +27,21 @@ description: 基本型態介紹
 * <mark style="color:blue;">**nil**</mark> for Pointer/Interface/Slice/Map/Channel/Function
 
 ### Basic types
+
+* 基本類型如下：
+
+```
+bool
+string
+int、int8、int16、int32、int64
+uint、uint8、uint16、uint32、uint64、uintptr
+byte // uint8 的别名
+rune // int32 的别名 代表一个 Unicode 码
+float32、float64
+complex64、complex128
+```
+
+* 範圍與大小
 
 | type                                                                   | Size                                                                         | range                                                                                                  |
 | ---------------------------------------------------------------------- | ---------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
