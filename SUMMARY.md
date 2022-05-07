@@ -4,12 +4,12 @@
 
 ## basic
 
-* [Go intro.](basic/go-intro..md)
-* [\[開始Go旅程\] Install Go](basic/kai-shi-go-lv-cheng-install-go.md)
+* [why Go ?](basic/why-go.md)
+* [\[Start! ->\] Install Go](basic/start-greater-than-install-go.md)
 * [Go Module](basic/go-module.md)
 * [GO basic](basic/go-basic/README.md)
-  * [型態 Types](basic/go-basic/xing-tai-types.md)
-  * [型態轉換 Type convert](basic/go-basic/xing-tai-zhuan-huan-type-convert.md)
+  * [base Types](basic/go-basic/base-types.md)
+  * [Type convert](basic/go-basic/type-convert.md)
   * [array/slice/map](basic/go-basic/array-slice-map/README.md)
     * [array 宣告與操作](basic/go-basic/array-slice-map/array-xuan-gao-yu-cao-zuo.md)
     * [slice 宣告與操作](basic/go-basic/array-slice-map/slice-xuan-gao-yu-cao-zuo.md)
@@ -24,7 +24,7 @@
   * [用interfce定義行為](basic/interface/yong-interfce-ding-yi-hang-wei.md)
   * [ERROR](basic/interface/error.md)
 * [Goroutine](basic/goroutine/README.md)
-  * [創建Goroutine](basic/goroutine/chuang-jian-goroutine/README.md)
+  * [創建Goroutine](basic/goroutine/chuang-jian-goroutine.md)
     * [for循環+goroutine的坑](basic/goroutine/chuang-jian-goroutine/for-xun-huan-+goroutine-de-keng.md)
   * [資料競爭 data race](basic/goroutine/zi-liao-jing-zheng-data-race.md)
   * [互斥鎖](basic/goroutine/hu-chi-suo.md)

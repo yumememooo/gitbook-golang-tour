@@ -2,15 +2,15 @@
 description: 基本型態介紹
 ---
 
-# 型態 Types
+# base Types
 
 ### 型態用法
 
-* 值類型包括 int、float、bool、string、struct 以及數組(array)
-* 引用類型包括指針(Pointer)、切片(slice)、map、通道(chan)&#x20;
+* <mark style="color:blue;">值類型</mark>包括 int、float、bool、string、struct 以及數組(array)
+* <mark style="color:blue;">引用類型</mark>包括指針(Pointer)、切片(slice)、map、通道(chan)&#x20;
 * 可以透過fmt.Printf("Type: %T ", xx) 印出該類型的type
 * 可以通過 math.MaxInt64、math.MinInt64 的方式得到預定義的某類型最大最小值。
-* new 會自動用 zeroed value 來初始化型別，但要注意像是map/slice/chan等會是nil。
+* <mark style="background-color:yellow;">new 會自動用 zeroed value 來初始化型別</mark>，但要注意像是map/slice/chan等會是nil。
 
 ### Zero values
 

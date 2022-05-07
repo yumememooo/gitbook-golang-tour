@@ -1,4 +1,8 @@
-# 型態轉換 Type convert
+---
+description: Type convert 型態轉換
+---
+
+# Type convert
 
 #### 自動類型轉換&#x20;
 
@@ -17,7 +21,7 @@ var myFloat float64 = 1var myFloat float64 = 1
 
 #### &#x20;顯式轉換 強制轉換Type conversions&#x20;
 
-The expression T(v) converts the value v to the type T.
+The expression <mark style="color:blue;">T(v)</mark> converts the value v to the type T.
 
 ```
 func main() {
