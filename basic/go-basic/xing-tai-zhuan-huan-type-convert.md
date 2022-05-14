@@ -8,6 +8,11 @@ description: Type convert 型態轉換
 
 var myInt =123
 
+```
+var myInt = 123
+fmt.Printf("%T %v \n", myInt, myInt) //int 123 
+```
+
 ### 隱式整數類型轉換&#x20;
 
 使用並不會感覺到，變量之間沒有隱式類型轉換。但是編譯器可以進行變量和常量之間的隱式類型轉換&#x20;
