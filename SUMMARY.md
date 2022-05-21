@@ -22,7 +22,7 @@
 * [interface](basic/interface/README.md)
   * [空的接口，interface{}](basic/interface/kong-de-jie-kou-interface.md)
   * [用interfce定義行為](basic/interface/yong-interfce-ding-yi-hang-wei.md)
-  * [ERROR](basic/interface/error.md)
+  * [ERROR介面](basic/interface/error-jie-mian.md)
 * [Goroutine](basic/goroutine/README.md)
   * [創建Goroutine](basic/goroutine/chuang-jian-goroutine.md)
     * [for循環+goroutine的坑](basic/goroutine/chuang-jian-goroutine/for-xun-huan-+goroutine-de-keng.md)

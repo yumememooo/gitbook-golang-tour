@@ -1,4 +1,4 @@
-# ERROR
+# ERROR介面
 
 Go除以錯誤可以分一般錯誤error與嚴重錯誤panic
 
@@ -14,7 +14,8 @@ type error interface {
 
 #### 自定義錯誤介面
 
-* 可以自定義錯誤介面內容，拿到錯誤時，先判斷是否是自己定義的錯誤來拿到自定義的內容．
+* 可以自定義錯誤介面內容，來定義更多錯誤資訊．
+* 拿到錯誤時，先斷言判斷是否是自己定義的錯誤來拿到自定義的內容，就不用會只拿到錯誤字串而已．
 
 ```
 type DefinedError interface {
@@ -42,8 +43,10 @@ func (e *definedError) Error() string {
 ------------------------------
 
 使用
+func xxx() error{
 	err := newDefinedError(http.StatusNotFound, "description")
 	return err
+}
 
 判斷
 
