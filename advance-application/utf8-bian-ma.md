@@ -4,7 +4,7 @@ Golang 源码本身使用的是UTF-8编码（非utf-8格式的源码不能编译
 
 
 
-判斷是否是big5或是gbk的範例碼
+網路上有判斷是否是big5或是gbk的範例碼
 
 <details>
 
@@ -76,7 +76,7 @@ go
 \
 GO程式碼實現判斷字元編碼格式及編碼格式轉換（utf-8、gbk）\
 [https://www.gushiciku.cn/pl/pfkW/zh-tw](https://www.gushiciku.cn/pl/pfkW/zh-tw)\
-但是如果原本就是UTF-8 再轉又會變成亂碼
+但是如果原本就是UTF-8 再轉又會變成亂碼，因此要先判斷格式在轉碼
 
 \
 \[小知識] 判斷是否為繁體字(Big5)\
@@ -91,7 +91,9 @@ isUtf8:false\
 isGBK:true\
 2022-01-03T10:14:35.176+0800 DEBUG mqclient/devicelisten.go:129 \[MQTT Client] RawData : ={?�^�r\\\tNXT-H07\\\t7\\\t20210504\
 105551\\\t4\\\t9 1641176075173 \[]}\
-\
+
+
+用程式送沒問題 但是用工具送有問題    \
 Cient Send简体字\
 蝞�雿枏�\
 isUtf8:true\

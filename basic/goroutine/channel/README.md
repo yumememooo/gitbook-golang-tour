@@ -6,8 +6,6 @@ description: '使用channel : goroutine之間的溝通橋樑'
 
 ### Channel 用途&#x20;
 
-Channel 可以在 Goroutines 間<mark style="color:blue;">同步的處理資料</mark>，而不用使用明確的 lock, unlock 等方法保證變數的安全性。
-
 * Channel就像是一個Queue, 遵守著FIFO的規則
 * 保證收發資料的順序 訊息通道與傳遞：
 * 生產者消費者模型&#x20;
@@ -20,9 +18,7 @@ Channel 可以在 Goroutines 間<mark style="color:blue;">同步的處理資料<
 
 var 通道名稱 <mark style="background-color:green;">chan</mark> 通道類型&#x20;
 
-chan的空值是nil，透過make來產生實例。
-
-make(chan 通道類型, bufferSize)
+透過make來產生實例。
 
 
 
