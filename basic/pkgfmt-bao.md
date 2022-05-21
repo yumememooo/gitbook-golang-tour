@@ -1,6 +1,6 @@
 # \[pkg]fmt包
 
-fmt
+### fmt
 
 完整文件：[https://pkg.go.dev/fmt](https://pkg.go.dev/fmt)
 
@@ -45,3 +45,7 @@ func main() {
 }
 
 ```
+
+延伸
+
+* \[关于fmt包Fprint系列方法的性能问题]\([https://blog.csdn.net/FishGoddess/article/details/104809139](https://blog.csdn.net/FishGoddess/article/details/104809139))
