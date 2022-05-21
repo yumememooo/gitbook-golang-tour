@@ -1,11 +1,10 @@
 # slice 宣告與操作
 
-####
-
 ### 切片 `slice`
 
 * 一種資料型別，從概念上說是一個結構體。可以理解為**動態長度**的陣列
-* 傳遞時為**按引用傳遞**的，函式內對slice內元素的修改將導致函式外的值也發生改變
+* 傳遞時為<mark style="color:red;">**按引用傳遞**</mark>的，函式內對slice內元素的修改將導致函式外的值也發生改變
+* 可以透過<mark style="color:red;">make宣告</mark>長度與容量減少開銷
 
 宣告
 
@@ -24,9 +23,9 @@ s4 := make([]int, 3, 5)
 //通過make函式初始化，值為[0,0,0]，長度為3，容量為5
 ```
 
-#### 新增元素:動態改變slice大小
+#### <mark style="color:red;">新增元素:動態改變slice大小</mark>
 
-切片長度可以動態改變，這時候會使用 `append` 函式
+切片長度可以動態改變，這時候會使用 <mark style="color:red;">`append`</mark> 函式
 
 沒有移除元素的函式，但可以用一些技巧移掉某一個元素
 
@@ -38,7 +37,7 @@ slice = append(slice[0:2], slice[3:5]...)
 
 #### 走訪array <a href="#die-dai-map" id="die-dai-map"></a>
 
-* 注意不可以直接在range中修改元素，若要修改中的元素，要以修改陣列的元素的值
+* <mark style="color:red;">注意不可以直接在range中修改元素</mark>，若要修改中的元素，要以修改陣列的元素的值
 * 傳遞時為**按引用傳遞**的
 
 ```
