@@ -5,7 +5,7 @@
 VSCODE->file->Perfernce->User sippets->go.json
 
 * Snippet Generator extension (recommended)
-* [https://snippet-generator.app/](https://snippet-generator.app) 線上編輯版
+* [https://snippet-generator.app/](https://snippet-generator.app/) 線上編輯版
 
 ```
 /{
