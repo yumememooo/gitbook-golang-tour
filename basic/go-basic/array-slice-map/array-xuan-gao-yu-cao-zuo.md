@@ -3,9 +3,9 @@
 #### 陣列`Array 宣告` <a href="#die-dai-map" id="die-dai-map"></a>
 
 * 陣列在初始化時必須指定大小，<mark style="color:red;">\[...]也是指定大小的意思</mark>
-* 陣列為<mark style="color:red;">**按值傳遞**</mark>的，函式內對陣列的值的改變不影響初始陣列
+* 陣列為**按值傳遞**的，函式內對陣列的值的改變不影響初始陣列
 * 陣列作為函式引數時，必須指定引數陣列的大小，且傳入的陣列大小必須與指定的大小一致
-* <mark style="color:red;">不可以使用append</mark>
+* 不可以使用append
 
 ```
 var arr1 [5]int 
@@ -25,7 +25,7 @@ arr4 := [...]int{4: 1}
 
 #### 走訪array <a href="#die-dai-map" id="die-dai-map"></a>
 
-* <mark style="color:red;">注意不可以直接在range中修改元素</mark>，若要修改陣列中的元素，要以索引走訪陣列，再修改陣列的元素的值(跟slice一樣)
+* 注意不可以直接在range中修改元素，若要修改陣列中的元素，要以索引走訪陣列，再修改陣列的元素的值
 
 ```
 package main

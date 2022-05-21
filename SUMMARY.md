@@ -34,6 +34,7 @@
   * [sync.map](basic/goroutine/sync.map.md)
 * [不同版本的差異](basic/bu-tong-ban-ben-de-cha-yi.md)
 * [time 時間包](basic/time-shi-jian-bao.md)
+* [\[pkg\]fmt包](basic/pkgfmt-bao.md)
 
 ## advance-application
 
