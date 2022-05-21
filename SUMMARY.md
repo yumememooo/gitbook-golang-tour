@@ -26,6 +26,7 @@
 * [Goroutine](basic/goroutine/README.md)
   * [創建Goroutine](basic/goroutine/chuang-jian-goroutine.md)
     * [for循環+goroutine的坑](basic/goroutine/chuang-jian-goroutine/for-xun-huan-+goroutine-de-keng.md)
+    * [deadlock問題](basic/goroutine/chuang-jian-goroutine/deadlock-wen-ti.md)
   * [資料競爭 data race](basic/goroutine/zi-liao-jing-zheng-data-race.md)
   * [互斥鎖](basic/goroutine/hu-chi-suo.md)
   * [channel](basic/goroutine/channel/README.md)
