@@ -1,6 +1,5 @@
 ---
 description: 開發Go環境的安裝步驟，
-layout: editorial
 ---
 
 # \[Start! ->] Install Go
