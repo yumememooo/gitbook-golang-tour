@@ -2,7 +2,15 @@
 
 Golang 源码本身使用的是UTF-8编码（非utf-8格式的源码不能编译），除了ascii，golang 也可以打印Unicode的字符编码
 
-```
+
+
+判斷是否是big5或是gbk的範例碼
+
+<details>
+
+<summary>範例</summary>
+
+```go
 
 func isBig5(data []byte) bool {
 length := len(data)
@@ -60,8 +68,10 @@ return false
 return true
 }
 
-
+go
 ```
+
+</details>
 
 \
 GO程式碼實現判斷字元編碼格式及編碼格式轉換（utf-8、gbk）\
@@ -86,7 +96,9 @@ Cient Send简体字\
 蝞�雿枏�\
 isUtf8:true\
 isGBK:false\
-2022-01-03T10:14:00.320+0800 DEBUG mqclient/devicelisten.go:129 \[MQTT Client] RawData : ={简体字 1641176040318 \[]}\
+2022-01-03T10:14:00.320+0800 DEBUG mqclient/devicelisten.go:129 \[MQTT Client] RawData : ={简体字 1641176040318 \[]}
+
+\
 \
 \
 \
