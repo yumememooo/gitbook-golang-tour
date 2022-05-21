@@ -27,7 +27,3 @@ https://github.com/gin-gonic/gin
 https://github.com/swaggo/gin-swagger
 
 swag tool install https://github.com/swaggo/swag
-
-安裝完工具後下swag version就會出現版本
-
-下swag init就會根據註解產生對應的file
