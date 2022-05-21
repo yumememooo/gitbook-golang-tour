@@ -1,10 +1,12 @@
 # \[pkg]fmt包
 
-### fmt
+## fmt
 
 完整文件：[https://pkg.go.dev/fmt](https://pkg.go.dev/fmt)
 
 
+
+### General
 
 #### %v %+v %#v
 
