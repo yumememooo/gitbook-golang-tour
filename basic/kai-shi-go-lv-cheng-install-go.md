@@ -3,7 +3,7 @@ description: 開發Go環境的安裝步驟，
 layout: editorial
 ---
 
-# \[開始Go旅程] Install Go
+# \[Start! ->] Install Go
 
 ### 安裝三步驟
 
@@ -118,5 +118,8 @@ impl.exe
 staticcheck.exe
 ```
 
+#### 升版降版
 
+通常我在win環境都是直接更換安裝目錄c:/go
 
+程式面debug工具可能需要重新更換一下

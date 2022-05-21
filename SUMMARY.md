@@ -59,7 +59,7 @@
 
 ## more
 
-* [收藏庫](more/shou-cang-ku.md)
+* [收藏文章與指引](more/shou-cang-wen-zhang-yu-zhi-yin.md)
 * [\[IDE\] VSCODE相關設定](more/ide-vscode-xiang-guan-she-ding/README.md)
   * [\[Code Snippet\] 程式碼快捷鍵](more/ide-vscode-xiang-guan-she-ding/code-snippet-cheng-shi-ma-kuai-jie-jian.md)
   * [\[插件\]開發推薦使用](more/ide-vscode-xiang-guan-she-ding/cha-jian-kai-fa-tui-jian-shi-yong.md)
