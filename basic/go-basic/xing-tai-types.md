@@ -19,13 +19,30 @@ var 變量名 變量類型
 var a, b *int//指针类型
 ```
 
+#### new
+
+* <mark style="background-color:red;">new 會並且返回儲存位址</mark> <mark style="background-color:red;"></mark><mark style="background-color:red;">**且**</mark><mark style="background-color:red;">自動用 zeroed value 來初始化型別</mark>
+* 但要注意像是map/slice/chan等會是nil，直接使用可能會引發錯誤，通常會另外make來宣告使用。
+* map/slice/chan 常用make宣告時就不會拿到指標，要拿到指標請用new
+
+```
+func main() {
+	myInt := new(int)
+	fmt.Println(myInt). //記憶體位置0xc00009c000
+	fmt.Println(*myInt).  //初始值 0 
+	fmt.Printf("%#v", myInt) //%#v 先输出结构体名字值，再输出结构体（字段名字+字段的值） (*int)(0xc00009c000)
+}
+```
+
+* 使用new(struct)雖然可以快速初始化，但是無法一開始就給指定內容，因此常使用\&Struct{Field:xxx}來使用．
+
 ### 型態用法
 
 * <mark style="color:blue;">值類型</mark>包括 int、float、bool、string、struct 以及數組(array)
 * <mark style="color:blue;">引用類型</mark>包括指針(Pointer)、切片(slice)、map、通道(chan)&#x20;
 * 可以透過fmt.Printf("Type: %T ", xx) 印出該類型的type
 * 可以通過 math.MaxInt64、math.MinInt64 的方式得到預定義的某類型最大最小值。
-* <mark style="background-color:yellow;">new 會自動用 zeroed value 來初始化型別</mark>，但要注意像是map/slice/chan等會是nil。
+* <mark style="background-color:yellow;"></mark>
 
 ### Zero values
 
