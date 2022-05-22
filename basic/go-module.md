@@ -1,3 +1,7 @@
+---
+description: Golang 在 1.11 開始就推出了 Go Module，我是從這邊就直接使用 Go Module了
+---
+
 # Go Module
 
 ### go Module 語法
