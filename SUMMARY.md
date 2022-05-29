@@ -24,6 +24,7 @@
   * [用interfce定義行為](basic/interface/yong-interfce-ding-yi-hang-wei.md)
   * [ERROR介面](basic/interface/error.md)
 * [Goroutine](basic/goroutine/README.md)
+  * [併發與協程](basic/goroutine/bing-fa-yu-xie-cheng.md)
   * [創建Goroutine](basic/goroutine/chuang-jian-goroutine.md)
     * [for循環+goroutine的坑](basic/goroutine/chuang-jian-goroutine/for-xun-huan-+goroutine-de-keng.md)
     * [deadlock問題](basic/goroutine/chuang-jian-goroutine/deadlock-wen-ti.md)
