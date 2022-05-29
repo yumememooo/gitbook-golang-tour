@@ -19,9 +19,7 @@ func testRoutine() { //Golang中Routine闭包中的一个坑
 
 #### 解決方法
 
-* 將參數傳進go func(xxxx)
-
-```go
+```
 func testRoutineFix2() {
 	for i := 0; i < 100; i++ {
 		go func(ii int) {
@@ -32,7 +30,7 @@ func testRoutineFix2() {
 }
 ```
 
-* 另一種方法是在循環內定義新的變量，由於在循環內定義的變量在循環遍歷的過程中是不共享的
+另一種方法是在循環內定義新的變量，由於在循環內定義的變量在循環遍歷的過程中是不共享的
 
 ```
 func testRoutineFix3() {
@@ -49,9 +47,7 @@ func testRoutineFix3() {
 
 
 
-<details>
-
-<summary>完整程式碼</summary>
+完整程式碼：
 
 [https://github.com/yumememooo/go-my-playground/blob/main/2.gorountine/2.for-go/main.go](https://github.com/yumememooo/go-my-playground/blob/main/2.gorountine/2.for-go/main.go)
 
@@ -101,8 +97,4 @@ testRoutineFix3 8
 ```
 
 
-
-
-
-</details>
 
