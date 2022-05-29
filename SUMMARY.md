@@ -35,7 +35,7 @@
     * [使用Select實現無阻塞讀取](basic/goroutine/channel/shi-yong-select-shi-xian-wu-zu-sai-du-qu.md)
   * [記憶體洩漏](basic/goroutine/ji-yi-ti-xie-lou.md)
   * [sync.map](basic/goroutine/sync.map.md)
-  * [網路收藏文](basic/goroutine/wang-lu-shou-cang-wen.md)
+  * [後記＆網路收藏文](basic/goroutine/hou-ji-wang-lu-shou-cang-wen.md)
 * [不同版本的差異](basic/bu-tong-ban-ben-de-cha-yi.md)
 * [time 時間包](basic/time-shi-jian-bao.md)
 * [\[pkg\]fmt包](basic/pkgfmt-bao.md)
