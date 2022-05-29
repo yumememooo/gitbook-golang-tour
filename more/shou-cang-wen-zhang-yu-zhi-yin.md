@@ -10,6 +10,10 @@
 
 * [https://github.com/gopl-zh/gopl-zh.github.com](https://github.com/gopl-zh/gopl-zh.github.com)
 
+**高效的 Go 编程 Effective Go 官方《Effective Go》 中文版**
+
+* [https://learnku.com/docs/effective-go/2020](https://learnku.com/docs/effective-go/2020)
+
 #### 標準 Go 專案目錄結構 (Standard Go Project Layout)
 
 * [https://github.com/golang-standards/project-layout/blob/master/README\_zh-TW.md](https://github.com/golang-standards/project-layout/blob/master/README\_zh-TW.md)
