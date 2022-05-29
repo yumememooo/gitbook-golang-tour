@@ -14,6 +14,8 @@ description: 解說all goroutines are asleep - deadlock!
 
 #### 範例
 
+* <mark style="background-color:red;">unbuffered channal</mark> block example
+
 ```
 package main
 
@@ -21,6 +23,7 @@ import "fmt"
 
 func main() {
 	ch := make(chan int)
+	
 	ch <- 1 // 等到天荒地老
 	fmt.Println(<-ch)
 }
