@@ -33,6 +33,7 @@
   * [channel](basic/goroutine/channel/README.md)
     * [nil channel](basic/goroutine/channel/nil-channel.md)
     * [使用Select實現無阻塞讀取](basic/goroutine/channel/shi-yong-select-shi-xian-wu-zu-sai-du-qu.md)
+    * [channel 阻塞](basic/goroutine/channel/channel-zu-sai.md)
   * [記憶體洩漏](basic/goroutine/ji-yi-ti-xie-lou.md)
   * [sync.map](basic/goroutine/sync.map.md)
   * [後記＆網路收藏文](basic/goroutine/hou-ji-wang-lu-shou-cang-wen.md)
