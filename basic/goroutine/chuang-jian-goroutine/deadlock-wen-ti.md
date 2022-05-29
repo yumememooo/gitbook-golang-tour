@@ -11,3 +11,21 @@ description: 解說all goroutines are asleep - deadlock!
 > *   <mark style="color:red;">死鎖</mark>
 >
 >     > 所有的並發協程彼此等待，除非外界的干預，否則程式將永遠無法恢復運行。
+
+#### 範例
+
+```
+package main
+
+import "fmt"
+
+func main() {
+	ch := make(chan int)
+	ch <- 1 // 等到天荒地老
+	fmt.Println(<-ch)
+}
+// fatal error: all goroutines are asleep - deadlock!
+
+// goroutine 1 [chan send]:
+// main.main()
+```
