@@ -1,10 +1,11 @@
 # Table of contents
 
 * [🌸 About Golang Tour](README.md)
+* [why Go ?](why-go/README.md)
+  * [個人觀點](why-go/ge-ren-guan-dian.md)
 
 ## basic
 
-* [why Go ?](basic/go-intro..md)
 * [\[Start! ->\] Install Go](basic/kai-shi-go-lv-cheng-install-go.md)
 * [Go Module](basic/go-module.md)
 * [GO basic](basic/go-basic/README.md)
