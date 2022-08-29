@@ -24,10 +24,17 @@ coverY: 0
 
 ****
 
-**To Go or Not to ?**
+**To Go or Not To ?**
 
 ![](../.gitbook/assets/motorcycle.svg)
 
-#### 官方
+#### 官方部落格
 
 [https://go.dev/blog/](https://go.dev/blog/)
+
+
+
+#### 個人觀點
+
+僅個人使用意見
+

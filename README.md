@@ -18,7 +18,16 @@ sync backup:[https://github.com/yumememooo/gitbook-golang-tour](https://github.c
 
 #### 關於我
 
-後端IT工程師，Go經歷兩年 & 正在學習 React 前端技術。
+後端IT工程師，Go經歷三年 & 正在學習 React 前端技術。
+
+* 使用go串接多樣協定/MQ：ex http/mqtt/zeromq/rabbitmq
+* 使用go建立web服務 Restful API
+* 使用go串接多樣DB ex:mongo/TSDB(influxdb)/redis
+* 使用go操作k8s operator
+
+
+
+
 
 更多資訊：
 
